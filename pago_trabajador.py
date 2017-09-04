@@ -2,7 +2,7 @@
 
 #Gerardo Arturo Valderrama Quiroz
 #A01374994
-#Programa que calcula el pago nomal, el extra y el total de un trabajador
+#Programa que calcula el pago normal, el pago extra y el total de un trabajador
 
 def calcularhorasNormales(horastrabajadas, pagoporhora):
     pagoNormales = horastrabajadas * pagoporhora
