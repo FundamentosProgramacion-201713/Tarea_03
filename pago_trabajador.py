@@ -1,6 +1,6 @@
 #encoding: UTF-8
 
-#gerardo Arturo Valderrama Quiroz
+#Gerardo Arturo Valderrama Quiroz
 #A01374994
 #Programa que calcula el pago nomal, el extra y el total de un trabajador
 
