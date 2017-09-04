@@ -1,6 +1,6 @@
 #encoding: UTF-8
 
-#gerardo Arturo Valderrama Quiroz
+#Gerardo Arturo Valderrama Quiroz
 #A01374994
 #Programa que calcula Diametro, Volumen y Area de una a a partir del radio qe proporcione el usuario
 
