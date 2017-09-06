@@ -14,9 +14,12 @@ def main ():
             pagoA=seatsA*400
             pagoB=seatsB*250
             pagoC=seatsC*135
-            total=pagoC+pagoB+pagoA
+            total=float(pagoC+pagoB+pagoA)
             return total
 
-    print("Tu total a pagar es: ", calcularPago(seatsA, seatsB, seatsC))
+
+    print("Tu total a pagar es: $ %d.00 " % calcularPago(seatsA, seatsB, seatsC))
+
 main()
+
 
