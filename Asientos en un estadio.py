@@ -16,5 +16,5 @@ def main():
     claseB = int(input("Número de boletos de clase B: "))
     claseC = int(input("Número de boletos de clase C: "))
     total=calcularPago(claseA, claseB, claseC)
-    print("El costo total es de: $% 5.2f "% total)
+    print("El costo total es de: $% .2f "% total)
 main()
