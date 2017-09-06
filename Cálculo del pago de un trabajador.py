@@ -1,5 +1,6 @@
 #encoding: UTF-8
 #Autor: Aaron Tonatiuh Villanueva Guzmán
+#Este programa calculo el pago de un trabajador a partir de sus horas normales trabajadas así como las extra las cuales pagan 50% más
 
 def calculopagoNormal(horasN, pagoH):
     pagoN=horasN*pagoH
