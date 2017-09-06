@@ -31,10 +31,13 @@ def Main():
   kmporlitroprint=kmporlitro(kmrecorridos, gasolinausada)
   millas,galones=conversionaUnidadesInglesas(kmrecorridos, gasolinausada)
   millasporgalon=milporgalon(millas,galones)
+  print("")
   print("Si recorres 350 kms con 23 litros de gasolina, el rendimiento es:")
   print("%.2f km/l"% kmporlitroprint)
   print("%.2f mi/gal"% millasporgalon)
+  print("")
   kmarecorrer=int(input("¿Cuántos kilómetros vas a recorrer?"))
+  print("")
   gasolinanecesariaprint=gasolinanecesaria(kmarecorrer,kmporlitroprint)
   print("Para recorrer %.2f km. necesitas %.2f litros de gasolina"%(millasporgalon, gasolinanecesariaprint))
   
