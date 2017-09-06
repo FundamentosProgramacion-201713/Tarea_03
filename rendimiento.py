@@ -2,17 +2,17 @@
 #Autor: José Antonio Gómez Mora
 #Lee el número de kilómetros recorridos y la cantidad de gasolina utilizada e imprime rendimiento km/L, mi/gal
 
-
+#Calcula el rendimiento km/l con los parametros kilometros recorridos por el usuario y litros usados
 def calculoKmL(kmRecorridos, litrosUsados):
     kmL=kmRecorridos/litrosUsados
     return kmL
 
-
+#Calcula el rendimiento mi/gal con el parametro km/l
 def calculoMiGal(kmL):
     miGal=kmL*(3.7854/1.6093)
     return miGal
 
-
+#Calcula el total de gasolina para recorrer cierto número de kilometros
 def calculoGasolina(kmRecorrer,kmL):
     gasolina=kmRecorrer/kmL
     return gasolina

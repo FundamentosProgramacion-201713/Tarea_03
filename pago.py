@@ -12,7 +12,7 @@ def calculoExtra(hExtras, pago):
     extras=hExtras*(pago*1.5)
     return extras
 
-#función main
+
 def main():
     hNormales=int(input("Ingresa las horas normales trabajadas: "))
     hExtras=int(input("Ingresa las horas extras trabajadas: "))
