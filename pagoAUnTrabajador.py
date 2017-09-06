@@ -1,4 +1,5 @@
 #AUTOR: JOSÉ HEINZ MÖLLER SANTOS
+#el programa calcula el pago normal de un trabajador, sus horas extras y el total
 
 #calcula el pago normal, multiplica horas por el salario
 def calcularPagoNormal(horasNormales, pagoHora):

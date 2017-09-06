@@ -1,4 +1,5 @@
 #AUTOR: JOSÉ HEINZ MÖLLER SANTOS
+#el programa calcula el rendimiento de un auto y luego te da la cantidad de gasolina que le debes de meter para recorrer cierta distancia
 
 #calcula el rendimiento en km y litros
 def calcularRendimientoKmLi(kmRecorridos, litrosGasolina):

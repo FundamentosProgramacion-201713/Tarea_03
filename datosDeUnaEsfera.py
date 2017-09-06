@@ -1,4 +1,5 @@
 #AUTOR: JOSÉ HEINZ MÖLLER SANTOS
+#el programa dice el diametro, volumen y area de una esfera a partir de su diametro
 
 import math
 
