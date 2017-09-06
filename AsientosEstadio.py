@@ -1,4 +1,31 @@
 #encoding:UTF-8
 #Autor: Carlos Pano Hernández
 
-#Descripción:
+#Descripción: Este programa calcula el precio total de acuerdo al número de boletos requeridos por sección.
+
+#Cálculo de precio
+def calcularPagoA(AsientosA):
+    aA=400*AsientosA
+    return aA
+
+def calcularPagoB(AsientosB):
+    aB=250*AsientosB
+    return aB
+
+def calcularPagoC(AsientosC):
+    aC=135*AsientosC
+    return aC
+
+def calcularTotal(a,b,c):
+    total=a+b+c
+    return total
+
+#Función main
+def main():
+    a=calcularPagoA(int(input("Número de boletos de clase A:")))
+    b=calcularPagoB(int(input("Número de boletos de clase B:")))
+    c=calcularPagoC(int(input("Número de boletos de clase C:")))
+    precioFinal=calcularTotal(a,b,c)
+    print("El costo total es: $ %.2f"%(precioFinal))
+
+main()
