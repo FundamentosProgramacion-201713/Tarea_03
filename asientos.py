@@ -12,7 +12,7 @@ def calcularPago(asientosA, asientosB, asientosC):
     totalPago = costoA + costoB + costoC
     return (totalPago)
 
-
+# Esta función main llama a las funciones anteriores e imprime el total a pagar por los diferentes tipos de asientos.
 def main():
     numeroBoletosA = int(input('Número de boletos de clase A: '))
     numeroBoletosB = int(input('Número de boletos de clase B: '))
