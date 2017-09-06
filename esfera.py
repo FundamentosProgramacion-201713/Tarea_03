@@ -15,10 +15,10 @@ def main(): #Definimos la función main
     radiot= float(input("Dame el radio de la esfera: "))#Pedimos al usuario el radio
     areat= calcularArea(radiot)  #Mandamos los datos ingresados por el usuario a la función calularArea para obtener el area de la esfera
     diametrot = calcularDiametro(radiot)  #Mandamos los datos ingresados por el usuario a la función calularDiametro para obtener el diametro
-    volumentt = calcularVolumen(radiot)  #Mandamos los datos ingresados por el usuario a la función calularVolumen para obtener el volumen de la esfera
+    volumentto = calcularVolumen(radiot)  #Mandamos los datos ingresados por el usuario a la función calularVolumen para obtener el volumen de la esfera
     print("El diametro de la esfera es: %.2f"%(diametrot)) #imprimimos el diametro
     print("El area de la esfera es: %.2f "%(areat)) #imprimimos el area con 2 decimales
-    print("El volumen de la esfera es: %.2f"%(volumentt))#imprimimos el volumen con 2 decimales
+    print("El volumen de la esfera es: %.2f"%(volumentto))#imprimimos el volumen con 2 decimales
 
 
 
