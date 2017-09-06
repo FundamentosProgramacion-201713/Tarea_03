@@ -3,20 +3,22 @@
 
 #Descripción: Este programa calcula el rendimiento de tu coche, así como la gasolina necesaria para recorrer cierta cantidad de Km. El programa da dos equivalencias del rendimiento.
 
-
+#RendimientoKm/l
 def calcularRendimientoKM(kmR,lU):
     rendimiento=kmR/lU
     return rendimiento
 
+#Rendimiento mi/gal
 def calcularRendimientoMI(kmR,lU):
     rendimiento=((kmR/lU)/1.609344)*(1/0.264172051)
     return rendimiento
 
+#LitrosNecesarios
 def calcularLitrosNecesarios(kmPR,kmR,lU):
     litrosNecesarios=(kmPR*lU)/kmR
     return litrosNecesarios
 
-
+#FuncionMain
 def main():
     kmRecorridos=int(input("Teclea el número de km recorridos:"))
     litrosUsados=int(input("Teclea el número de litos de gasolina usados:"))
@@ -36,5 +38,6 @@ def main():
     gasolinaNecesaria=calcularLitrosNecesarios(kmPorRecorrer,kmRecorridos,litrosUsados)
     print("Para recorrer %d km. necesitas %.2f litros de gasolina"%(kmPorRecorrer,gasolinaNecesaria))
 
+#Principal
 main()
 
