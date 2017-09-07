@@ -1,17 +1,17 @@
 #Javier Pascal Flores A01375925
 
-def medir_rendimiento(kilometros, gasolina):
+def medir_rendimiento(kilometros, gasolina): #Fucion de redimiento
         rendimiento=float(kilometros/gasolina)
-        return rendimiento
+        return rendimiento #regresar el rendimiento
 def medir_rendimiento_Imperial(kilometros,gasolina):
     rendimiento_imperial = float(( kilometros/ 1.60934) / (0.264172 * gasolina))
-    return rendimiento_imperial
+    return rendimiento_imperial #regresar el rendimiento imperial
 
 def medir_Futuro(rendimiento, km):
     litros=float(km/rendimiento)
-    return litros
+    return litros #Regresar los litros de consumo
 
-def main():
+def main(): #Llamar a main
     kilometros = int(input("Cuántos kilometros recorriste? "))
     gasolina = int(input("Cuanta gasolina gastaste en litros? "))
     rendimiento=medir_rendimiento(kilometros, gasolina)
