@@ -1,12 +1,14 @@
 #encoding: UTF-8
 #Autor: Luis Alfonso Alcántara López Ortega, A01374785
 
+#Función para calcular el rendimiento teniendo como parámetros los kilometros recorridos y litros utilizados
 def calcularRendimiento(km, litros):
 
     rendimiento = km / litros
 
     return rendimiento
 
+#Función para realizar la conversión de kilómetros por litro a millas por galón
 def calcularRendimientoConversion(km, litros):
 
     millas = km / 1.609344
@@ -15,6 +17,7 @@ def calcularRendimientoConversion(km, litros):
 
     return rendimiento
 
+#Función para calcular los litros necesarios para recorrer los kilómetros deseados
 def calcularLitros(km, r):
 
     litros = km / r

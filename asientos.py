@@ -1,6 +1,7 @@
 #encoding: UTF-8
 #Autor: Luis Alfonso Alcántara López Ortega, A01374785
 
+#Función para calcular el pago de los asientos A, B y C.
 def calcularPago(asientosA, asientosB, asientosC):
 
     precioA = 400 * asientosA
