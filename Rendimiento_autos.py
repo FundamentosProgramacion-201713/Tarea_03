@@ -9,12 +9,12 @@ def calcularRendimientokm(km_recorridos, gasolina_usada): #Calcula el rendimient
 
 
 def convertirKm(km_recorridos): #Convierte km a mi.
-    mi_recorridas = km_recorridos / 1.609344
+    mi_recorridas = km_recorridos * 0.621371
     return mi_recorridas
 
 
 def convertirL(gasolina_usada): #Convierte l a gal.
-    gal_usados = gasolina_usada / 0.264172051
+    gal_usados = gasolina_usada * 0.264172
     return gal_usados
 
 def calcularRendimientomi(mi_recorridas, gal_usados): #Calcula el rendimiento en mi/gal.
