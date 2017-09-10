@@ -23,7 +23,7 @@ def main (): #Programa principal.
     pago_extra = calcularPextra(horas_extras, pago_hora)
     print("Pago extra: $%.2f" % pago_extra)
 
-    print("----------------------")
+    print("-----------------------")
     pagototal = pago_normal + pago_extra
     print("Pago total: $%.2f" % pagototal)
 
