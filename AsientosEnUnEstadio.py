@@ -11,13 +11,10 @@ def calcularPago(asientosA, asientosB, asientosC):
     return total
 
 def main():
-    asientosA = int(input("Inserte el número de asientos  de clase A: "))
-    asientosB = int(input("Inserte el número de asientos  de clase B: "))
-    asientosC = int(input("Inserte el número de asientos  de clase C: "))
+    asientosA = int(input("Número de boletos de clase A: "))
+    asientosB = int(input("Número de boletos de clase B: "))
+    asientosC = int(input("Número de boletos de clase C: "))
     total = calcularPago(asientosA, asientosB, asientosC)
-    print("Número de boletos de clase A: ",asientosA)
-    print("Número de boletos de clase B: ",asientosB)
-    print("Número de boletos de clase C: ",asientosC)
     print("El costo total es: $%.2f" % (total))
 
 main()
