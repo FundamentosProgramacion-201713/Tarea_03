@@ -1,20 +1,24 @@
 # encoding: UTF-8
 # Autor: Ángel Guillermo Ortiz González
 # Matrícula: A01745998
-# Descripción: Lee kilómetros recorridos y gasolina utilizada e imprime rendimiento y datos para próximo viaje.
+# Descripción: Calcula rendimiento de un auto en km/l y mi/gal, además de los litros necesarios para un viaje próximo.
 
+# calcula rendimiento en km/l
 def calcularRendimientokml(kilometrosR,gasolinaU):
     rendimientokml = kilometrosR / gasolinaU
     return rendimientokml
 
+# calcula rendimiento en mi/gal
 def calcularRendimientomigal(kilometrosR, gasolinaU):
     rendimientomigal = (kilometrosR / 1.609344) / (gasolinaU * 0.264172051)
     return rendimientomigal
 
+# calcula litros que va a necesitar el auto para su próximo viaje
 def calcularlitrosANecesitar(kilometrosV,rendimientokml):
     litrosANecesitar = kilometrosV * (1 / rendimientokml)
     return litrosANecesitar
 
+# lee km recorridos, l de gasolina usados y km a recorrer e imprime rendimiento en km/l, mi/gal y l para el próximo viaje
 def main():
     kilometrosR = float(input("Teclea el número de km recorridos: "))
     gasolinaU = float(input("Teclea el número de litros de gasolina usados: "))
